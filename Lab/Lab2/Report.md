@@ -7,3 +7,4 @@
 ![07-git-config.png](screenshots/07-git-config.png)
 ![08-ssh-github.png](screenshots/08-ssh-github.png)
 ![09-github-repo.png](screenshots/09-github-repo.png)
+![10-pull-request.png](screenshots/10-pull-request.png)
