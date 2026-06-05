@@ -1,0 +1,8 @@
+![01-fcgiwrap.png](screenshots/01-fcgiwrap.png)
+![02-test-cgi.png](screenshots/02-test-cgi.png)
+![03-nginx-cgi.png](screenshots/03-nginx-cgi.png)
+![04-curl-submit.png](screenshots/04-curl-submit.png)
+![05-form-submit.png](screenshots/05-form-submit.png)
+![06-messages-file.png](screenshots/06-messages-file.png)
+![07-messages-page.png](screenshots/07-messages-page.png)
+![08-full-cycle.png](screenshots/08-full-cycle.png)
