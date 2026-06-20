@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9fbfc;
+}
+
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+a { color: #154360; }
+footer { text-align: center; margin-top: 40px; padding-top: 20px; color: #999; font-size: 14px; }
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #154360;
+    color: #ffffff;
+}
+
+.nav-left, .nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.main-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: background-color 0.2s;
+}
+
+.nav-brand {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.nav-active {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.nav-item:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-btn-dark {
+    background-color: #0E2F44;
+}
+
+.nav-greeting {
+    padding: 15px 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.auth-card {
+    background: #ffffff;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #e1e8ed;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+}
+
+.auth-card h1 {
+    color: #154360;
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+.auth-card label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.auth-card input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    font-size: 15px;
+    outline: none;
+}
+
+.auth-card input:focus {
+    border-color: #154360;
+}
+
+.auth-card button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 14px;
+    background: #154360;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.auth-card button:hover {
+    background: #0E2F44;
+}
+
+.auth-footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+.auth-footer a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.auth-footer a:hover {
+    text-decoration: underline;
+}
+
+.error-page { text-align: center; padding: 60px 0; }
+.error-page h1 { font-size: 72px; color: #e74c3c; }
+.error-page p { font-size: 18px; margin-top: 10px; }
+
+.page-title {
+    color: #154360;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+.posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Расстояние между карточками */
+}
+
+.post-card {
+    background: #ffffff;
+    border: 1px solid #e1e8ed;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between; /* Имя налево, время направо */
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.post-author {
+    font-weight: bold;
+    color: #154360;
+    font-size: 16px;
+}
+
+.post-time {
+    color: #95a5a6;
+    font-size: 14px;
+}
+
+.post-body {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
