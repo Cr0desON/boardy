@@ -1,0 +1,26 @@
+# IDE
+.idea/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# PHP
+vendor/
+
+# Node/JS
+node_modules/
+
+# Секреты
+.env
+*.env
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# ОС
+.DS_Store
+Thumbs.db
